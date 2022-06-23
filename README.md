@@ -1,3 +1,21 @@
+## Lig-Machine
+
+Long-winded
+Instrumentation
+Generating
+\-
+Massive
+Anticompetitive
+Computational
+Help for
+Intermediate
+Coders
+
+### WARNING
+
+I have just started to add algorithms, so the number of supported algorithms is
+limited at the moment, but will grow fairly quick.
+
 ### Supported Algorithm
 
 - Insertion sort
