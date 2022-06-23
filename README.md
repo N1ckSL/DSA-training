@@ -1,5 +1,46 @@
-# DSA Training
+### Supported Algorithm
 
-Data Structures and Algorithms practice room
+- Insertion sort
+- Merge sort
 
-Based on the [FrontendMasters Course](https://frontendmasters.com/courses/algorithms/introduction/), held by [ThePrimeagen](https://twitter.com/theprimeagen).
+### Supported Data Structures
+
+- Singly linked list
+- Doubly linked list
+- Queue
+- Stack
+
+### How It Works
+
+install the dependencies
+
+```bash
+yarn install
+```
+
+create day 1
+
+```bash
+./scripts/v1
+```
+
+this will progressively create folders named
+
+```
+src/day1
+src/day2
+...
+```
+
+`scripts/v1` will also update the `tsconfig.json` and `jest.config` to point
+the latest `day` folder via tspaths. This allows us to avoid updating anything
+for testing each day.
+
+#### Testing
+
+```
+yarn test
+```
+
+I have yet to create a testing strategy for next sets of algorithms, but we
+will get there when i cross that bridge.
